@@ -4,9 +4,9 @@ weight = 3
 chapter = true
 +++
 
-您可以报告bug，提交一个新的功能增强建议或者直接对以上内容提交改进补丁。
+您可以报告 bug，提交一个新的功能增强建议或者直接对以上内容提交改进补丁。
 
-## 提交issue
+## 提交 issue
 
  - 在提交issue之前，请经过充分的搜索，确定该issue不是通过简单的检索即可以解决的问题。
  - 查看[issue列表](https://github.com/apache/shardingsphere/issues)，确定该issue不是一个重复的问题。
@@ -55,8 +55,8 @@ git checkout -b issueNo
 
 **4. 编码**
 
- - 请您在开发过程中遵循ShardingSphere的[开发规范](/cn/contribute/code-conduct/)。并在准备提交pull request之前完成相应的检查。
- - 将修改的代码push到fork库的分支上。
+ - 请您在开发过程中遵循 ShardingSphere 的[开发规范](/cn/contribute/code-conduct/)。并在准备提交pull request之前完成相应的检查。
+ - 将修改的代码 push 到fork库的分支上。
 
 ```shell
 git add 修改代码
@@ -64,15 +64,15 @@ git commit -m 'commit log'
 git push origin issueNo
 ```
 
-**5. 提交PR**
+**5. 提交 PR **
 
- - 发送一个pull request到ShardingSphere的master分支。
- - 接着导师做CodeReview，然后他会与您讨论一些细节（包括设计，实现，性能等）。当导师对本次修改满意后，会将提交合并到当前开发版本的分支中。
- - 最后，恭喜您已经成为了ShardingSphere的官方贡献者！
+ - 发送一个 pull request 到ShardingSphere的master分支。
+ - 接着导师做 CodeReview，然后他会与您讨论一些细节（包括设计，实现，性能等）。当导师对本次修改满意后，会将提交合并到当前开发版本的分支中。
+ - 最后，恭喜您已经成为了 ShardingSphere的官方贡献者！
 
 **6. 删除分支**
 
- - 在导师将pull request合并到ShardingSphere的master分支中之后，您就可以将远程的分支（origin/issueNo）及与远程分支（origin/issueNo）关联的本地分支（issueNo）删除。
+ - 在导师将 pull request 合并到 ShardingSphere 的 master 分支中之后，您就可以将远程的分支（origin/issueNo）及与远程分支（origin/issueNo）关联的本地分支（issueNo）删除。
  
 ```shell
 git checkout master
